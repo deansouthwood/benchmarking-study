@@ -7,7 +7,7 @@ Paper coming!
 Packages benchmarked
 --------------------
 
-This benchmarking study includes 20 different assembly packages which can be run in upwards of 30 different ways, as well as 8 different polishers across data types. Below is a list of all assembly packages used. For more details on the settings used for each assembler, these details are available in the various snakemake rule files in the Code folder. 
+This benchmarking study includes 20 different assembly packages, run in a total of 30 different ways, as well as 8 different polishers across data types. Below is a list of all assembly packages used. For more details on the settings used for each assembler, these details are available in the various snakemake rule files in the Code folder. 
 
 ### Assemblers
 
@@ -54,9 +54,42 @@ This benchmarking study includes 20 different assembly packages which can be run
 | Assembly Package                                                               | Version |
 | ------------------------------------------------------------------------------ | ------- |
 | [DBG2OLC](https://github.com/yechengxi/DBG2OLC)                                        | v 20160920   |
-| [HASLR](https://github.com/alekseyzimin/masurca)                             | v 0.8a1   |
-| [MaSuRCA](https://jgi.doe.gov/data-and-tools/meraculous/)                   | v 3.4.1  |
-| [SPAdes](http://platanus.bio.titech.ac.jp/platanus-assembler/platanus-1-2-4) | v 3.12.0    | 
+| [HASLR](https://github.com/vpc-ccg/haslr)                             | v 0.8a1   |
+| [MaSuRCA](https://github.com/alekseyzimin/masurca)                   | v 3.4.1  |
+| [SPAdes](https://github.com/ablab/spades) | v 3.12.0    | 
+
+### Polishers
+
+#### Illumina Paired-End
+
+| Polishing Package                                   | Version |
+| -------------------------------------------------- | ------- | 
+| [GATK](https://gatk.broadinstitute.org/hc/en-us)            | v 4.1.3.0  | 
+| [HyPo](https://github.com/kensung-lab/hypo)        | v 1.0.3  |
+| [NextPolish](https://github.com/nextomics/nextpolish)         | v 1.3.0  |
+| [ntEdit](https://github.com/bcgsc/ntedit)      | v 1.3.2     |
+| [Pilon](https://github.com/broadinstitute/pilon/)         | v 1.23     |
+| [POLCA](https://github.com/alekseyzimin/masurca) | v 3.4.1     |
+| [Racon](https://github.com/lbcb-sci/racon)      | v 1.4.13     |
+
+#### Oxford Nanopore
+| Polishing Package                                   | Version |
+| -------------------------------------------------- | ------- | 
+| [Medaka](https://github.com/nanoporetech/medaka)            | v 4.1.3.0  | 
+| [NextPolish](https://github.com/nextomics/nextpolish)         | v 1.3.0  |
+| [Racon](https://github.com/lbcb-sci/racon)      | v 1.4.13     |
+
+#### PacBio (CLR)
+| Polishing Package                                   | Version |
+| -------------------------------------------------- | ------- | 
+| [NextPolish](https://github.com/nextomics/nextpolish)         | v 1.3.0  |
+| [Racon](https://github.com/lbcb-sci/racon)      | v 1.4.13     |
+
+#### Hybrid 
+| Polishing Package                                   | Version |
+| -------------------------------------------------- | ------- | 
+| [HyPo](https://github.com/kensung-lab/hypo)        | v 1.0.3  |
+
 
 
 Need Help?
